@@ -25,9 +25,8 @@
    `(fringe ((,class (:foreground ,fg1 :background ,bg1))))
    `(mode-line ((,class (:foreground ,bg1 :background ,fg1))))
    `(mode-line-inactive ((,class (:foreground ,bg1 :background ,bg2))))
-   `(cursor ((,class (:foreground ,bg1 :foreground ,fg1))))
-   
-   `(flycheck-warning ((,class (:foreground ,fg1 :background ,bg1 :underline (:style wave)))))
    `(cursor ((,class (:foreground ,bg1 :background ,cursor-bg))))
    `(region ((,class (:foreground ,bg1 :background ,region-bg))))
+      
+   `(flycheck-warning ((,class (:foreground ,fg1 :background ,bg1 :underline (:style wave :color "DarkGoldenrod")))))
    ))
