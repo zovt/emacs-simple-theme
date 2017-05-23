@@ -14,6 +14,7 @@
    `(default ((,class (:foreground ,fg1 :background ,bg1))))
    
    `(font-lock-keyword-face ((,class (:foreground ,fg1 :background ,bg1))))
+   `(font-lock-variable-name-face ((,class (:foreground ,fg1 :background ,bg1))))
    `(font-lock-string-face ((,class (:foreground ,fg1 :background ,bg1))))
    `(font-lock-function-name-face ((,class (:foreground ,fg1 :background ,bg1))))
    `(font-lock-type-face ((,class (:foreground ,fg1 :background ,bg1))))
