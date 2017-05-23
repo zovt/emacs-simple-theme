@@ -5,6 +5,7 @@
       (bg1 "#FFE9CF")
       (bg2 "#AEAAA5")
       (fg1 "#384E55")
+      (region-bg "burlywood4")
       (cursor-bg "#485E65")
       (comment-bg "#F8DFC2")
       )
@@ -28,4 +29,5 @@
    
    `(flycheck-warning ((,class (:foreground ,fg1 :background ,bg1 :underline (:style wave)))))
    `(cursor ((,class (:foreground ,bg1 :background ,cursor-bg))))
+   `(region ((,class (:foreground ,bg1 :background ,region-bg))))
    ))
