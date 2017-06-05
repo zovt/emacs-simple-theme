@@ -28,7 +28,7 @@
 
    `(fringe ((,class (:foreground ,fg1 :background ,bg1))))
    `(mode-line ((,class (:foreground ,bg1 :background ,fg1 :box (:line-width ,simple/modeline-thickness :color ,fg1)))))
-   `(mode-line-inactive ((,class (:foreground ,bg1 :background ,bg2 (:line-width ,simple/modeline-thickness :color ,bg2)))))
+   `(mode-line-inactive ((,class (:foreground ,bg1 :background ,bg2 :box (:line-width ,simple/modeline-thickness :color ,bg2)))))
    `(cursor ((,class (:foreground ,bg1 :background ,cursor-bg))))
    `(region ((,class (:foreground ,fg1 :background ,region-bg))))
       
