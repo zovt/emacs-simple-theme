@@ -1,6 +1,9 @@
 (deftheme simple
   "A simple theme for Emacs.")
 
+(if (not (boundp 'simple/modeline-thickness))
+    (setq-default simple/modeline-thickness 4))
+
 (let ((class '((class color) (min-colors 256)))
       (bg1 "#FFE9CF")
       (bg2 "#AEAAA5")
@@ -24,8 +27,8 @@
    `(font-lock-comment-face ((,class (:foreground ,fg1 :background ,comment-bg))))
 
    `(fringe ((,class (:foreground ,fg1 :background ,bg1))))
-   `(mode-line ((,class (:foreground ,bg1 :background ,fg1))))
-   `(mode-line-inactive ((,class (:foreground ,bg1 :background ,bg2))))
+   `(mode-line ((,class (:foreground ,bg1 :background ,fg1 :box (:line-width ,simple/modeline-thickness :color ,fg1)))))
+   `(mode-line-inactive ((,class (:foreground ,bg1 :background ,bg2 (:line-width ,simple/modeline-thickness :color ,bg2)))))
    `(cursor ((,class (:foreground ,bg1 :background ,cursor-bg))))
    `(region ((,class (:foreground ,fg1 :background ,region-bg))))
       
