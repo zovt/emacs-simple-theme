@@ -1,4 +1,4 @@
-# simple.el
+# simple
 A simple theme for Emacs
 
 # Screenshot
