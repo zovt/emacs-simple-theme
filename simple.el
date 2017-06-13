@@ -1,4 +1,4 @@
-;;; simple.el --- A simple theme for emacs
+;;; simple.el --- A simple theme for Emacs.
 ;;; Commentary:
 ;;; Code:
 
