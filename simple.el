@@ -1,3 +1,7 @@
+;;; simple.el --- A simple theme for emacs
+;;; Commentary:
+;;; Code:
+
 (deftheme simple
   "A simple theme for Emacs.")
 
@@ -34,3 +38,5 @@
       
    `(flycheck-warning ((,class (:foreground ,fg1 :background ,bg1 :underline (:style wave :color "DarkGoldenrod")))))
    ))
+
+;;; simple.el ends here
