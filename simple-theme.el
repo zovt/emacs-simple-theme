@@ -1,4 +1,4 @@
-;;; simple.el --- A simple theme.
+;;; simple-theme.el --- A simple theme.
 ;;; Version: 0.1
 ;;; Commentary:
 ;;; This is a theme that I made for personal use.  It features very,
@@ -44,5 +44,5 @@
    ))
 
 (provide-theme 'simple)
-(provide 'simple)
-;;; simple.el ends here
+(provide 'simple-theme)
+;;; simple-theme.el ends here
