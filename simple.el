@@ -1,5 +1,9 @@
-;;; simple.el --- A simple theme for Emacs.
+;;; simple.el --- A simple theme.
+;;; Version: 0.1
 ;;; Commentary:
+;;; This is a theme that I made for personal use.  It features very,
+;;; very limited syntax highlighting, and some touches I find
+;;; helpful.  Feel free to fork it / use it as you see fit.
 ;;; Code:
 
 (deftheme simple
@@ -39,4 +43,6 @@
    `(flycheck-warning ((,class (:foreground ,fg1 :background ,bg1 :underline (:style wave :color "DarkGoldenrod")))))
    ))
 
+(provide-theme 'simple)
+(provide 'simple)
 ;;; simple.el ends here
