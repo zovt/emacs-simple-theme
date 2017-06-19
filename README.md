@@ -5,4 +5,4 @@ This theme is inspired by the look of solarized.
 
 # Screenshot
 ![Screenshot](screenshot.png)
-With rainbow-delimiters-mode enabled
+With rainbow-delimiters-mode enabled. Font is DejaVu Sans Mono
