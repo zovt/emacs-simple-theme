@@ -45,6 +45,8 @@
       
    `(flycheck-warning ((,class (:foreground ,fg1 :background ,bg1 :underline (:style wave :color "DarkGoldenrod")))))
 
+   `(vertical-border ((,class (:foreground ,bg1 :background ,bg1))))
+
    `(nlinum-relative-current-face ((,class (:foreground ,fg1 :background ,bg1))))
    `(linum ((,class (:inherit shadow :background ,bg1))))
    ))
