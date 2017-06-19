@@ -47,6 +47,8 @@
 
    `(vertical-border ((,class (:foreground ,bg1 :background ,bg1))))
 
+   `(whitespace-line ((,class (:foreground ,fg1 :background ,bg1 :underline (:style wave :color ,fg1)))))
+
    `(nlinum-relative-current-face ((,class (:foreground ,fg1 :background ,bg1))))
    `(linum ((,class (:inherit shadow :background ,bg1))))
    ))
