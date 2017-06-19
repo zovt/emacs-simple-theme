@@ -12,6 +12,8 @@
 (if (not (boundp 'simple/modeline-thickness))
     (setq-default simple/modeline-thickness 4))
 
+(setq-default nlinum-format " %d ")
+
 (let ((class '((class color) (min-colors 256)))
       (bg1 "#FFE9CF")
       (fg1 "#384E55")
@@ -35,12 +37,15 @@
    `(font-lock-comment-face ((,class (:foreground ,fg1 :background ,comment-bg))))
 
    `(fringe ((,class (:foreground ,fg1 :background ,bg1))))
+
    `(mode-line ((,class (:foreground ,fg1 :background ,bg1 :box (:line-width ,simple/modeline-thickness :color ,bg1)))))
    `(mode-line-inactive ((,class (:foreground ,fg2 :background ,bg1 :box (:line-width ,simple/modeline-thickness :color ,bg1)))))
    `(cursor ((,class (:foreground ,bg1 :background ,cursor-bg))))
    `(region ((,class (:foreground ,fg1 :background ,region-bg))))
       
    `(flycheck-warning ((,class (:foreground ,fg1 :background ,bg1 :underline (:style wave :color "DarkGoldenrod")))))
+
+   `(nlinum-relative-current-face ((,class (:foreground ,fg1 :background ,bg1))))
    ))
 
 (provide-theme 'simple)
